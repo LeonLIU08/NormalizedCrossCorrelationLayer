@@ -94,8 +94,8 @@ class Normlized_Cross_Correlation(Layer):
 if __name__ == '__main__':
     from skimage.io import imread
 
-    img = imread('pa1_25fps_122.bmp')
-    dim = img.shape
+    img = imread('image.bmp')
+    print img.shape
 
     img = img[np.newaxis, :, :, :]
     img2 = np.zeros((32, 64, 64, 3))
