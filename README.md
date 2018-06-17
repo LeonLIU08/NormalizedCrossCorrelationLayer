@@ -1,5 +1,7 @@
 #NormalizedCrossCorrelationLayer
+
 The implementation of Normalized Cross Correlation Layer, which is proposed by Dosovitskiy et al.[1], on Keras with tensorflow backend. 
+
 "NormalizedCrossCorrelation.py" contains the code of the layer and an simple example of how to use it. 
 
 
